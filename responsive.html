@@ -20,7 +20,10 @@
                 <li class="ctn"><a  href="#"></a>Contact Us</li>
                 
             </ul>
+            <img src="menu-btn.png" alt="menu-btn" class="menu-btn">
 
+
+            
         </nav>
         <div class="header-content">
             <h2>Explore The Colorful World</h2>
@@ -30,6 +33,16 @@
         </div>
     </header>
 
-    
+    <script>
+        
+        const menuBtn=document.querySelector('.menu-btn')
+        const navlinks=document.querySelector('.nav-links')
+        menuBtn.addEventListener('click',()=>{
+            navlinks.classList.toggle('mobile-menu')
+        })
+
+
+        
+    </script>
 </body>
 </html>
